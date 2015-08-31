@@ -2,11 +2,11 @@ var React = require('react'); // npm module
 var Dropdown = require('./dropdown');
 
 var options = {
-  title: 'Choose a dessert', // dropdown title
-  items: [
-    'Apple Pie',
-    'Peach Cobbler',
-    'Coconut Cream Pie'
+  title: 'Choose a dessert',  // drop down button title
+  items: [  // list of items to show in the dropdown
+    'apple pie',
+    'Peach cobbler',
+    'Coconut pie'
   ]
 };
 

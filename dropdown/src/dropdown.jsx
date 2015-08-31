@@ -1,17 +1,18 @@
-// need to show a button and a list
-// this component should know when to show the list based on when a user clicks
+// Drop down component
 
-var React = require('react');  // npm module browserify
+var React = require('react');
 var Button = require('./button');
-//var list = require('./list');
+var List = require('./list');
 
 module.exports = React.createClass({
   render: function(){
+
     return <div className="dropdown">
-      <Button className="btn-default"
-              title={this.props.title}
+      <Button title={this.props.title}
+              className="btn-default"
               subTitleClassName="caret"
-      />
+        />
+      <List />
     </div>
   }
 });
