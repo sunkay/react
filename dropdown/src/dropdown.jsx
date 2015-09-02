@@ -26,7 +26,7 @@ module.exports = React.createClass({
               subTitleClassName="caret"
               whenClicked={this.handleClick}
         />
-      <ul className={"dropdown-menu " + (this.state.open ? " show " : " ")}>
+      <ul className={"dropdown-menu " + (this.state.open ? " show " : "   ")}>
         {list}
       </ul>
     </div>
